@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{3517a9c9-f410-4bed-ba1e-c701fbb22b8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LAPI.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LCODE.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LDEBUG.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LDO.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LFUNC.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LGC.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LLEX.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LLIMITS.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LMEM.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LOBJECT.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LOPCODES.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LPARSER.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LSTATE.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LSTRING.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LTABLE.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LTM.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LUNDUMP.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LVM.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LZIO.H">
+      <Filter>Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AllLuaIn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPI.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LAUXLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LBASELIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LCODE.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LDBLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LDEBUG.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LDO.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LDUMP.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LFUNC.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LGC.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LIOLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LLEX.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LMATHLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LMEM.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LOADLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LOBJECT.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LOPCODES.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LPARSER.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LSTATE.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LSTRING.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LSTRLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LTABLE.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LTABLIB.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LTESTS.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LTM.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LUNDUMP.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LVM.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LZIO.C">
+      <Filter>Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
